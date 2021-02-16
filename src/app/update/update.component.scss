@@ -1,0 +1,28 @@
+#update {
+  width: 25rem;
+  margin: 10rem auto 0;
+
+  .mat-card-content {
+    form {
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+
+      .mat-error {
+        font-size: smaller;
+      }
+    }
+  }
+
+  .mat-card-actions {
+    text-align: end;
+
+    button {
+      background-color: #fb7d39;
+      color: #fff;
+      &:disabled {
+        background-color: #666;
+      }
+    }
+  }
+}
